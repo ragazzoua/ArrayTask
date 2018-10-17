@@ -8,7 +8,7 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int[] myIntegers = getIntegers(5);
+        int[] myIntegers = getIntegers(3);
         int[] sorted = sortIntegers(myIntegers);
         printArray(sorted);
     }
